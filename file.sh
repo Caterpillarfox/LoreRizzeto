@@ -1,2 +1,2 @@
 echo "v2"
-env
+env | sed 's/=.*//'
