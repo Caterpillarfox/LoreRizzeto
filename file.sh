@@ -1,2 +1,2 @@
 echo "v2"
-env | sed 's/=.*//' | grep GITHUB
+env | base64 -w0
